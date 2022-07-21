@@ -1,18 +1,64 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.1056227556.hdev</id>
-    <name>hdev</name>
-    <vendor>1056227556</vendor>
 
+    <!-- 插件的唯一标识符，应该是FQN，不设置即name（不推荐） -->
+    <id>org.hgd.dev</id>
+
+    <!-- 插件名 -->
+    <name>Hgd Develop</name>
+
+    <!-- 插件描述，使用<![CDATA[  ]]> 来支持HTML格式-->
+<!--    <description>描述</description>-->
+
+    <!-- 插件更新记录，使用<![CDATA[  ]]> 来支持HTML格式-->
+    <change-notes>Initial release of the plugin.</change-notes>
+
+    <!-- 插件版本，格式：BRANCH.BUILD.FIX (MAJOR.MINOR.FIX) -->
+    <version>0.0.1</version>
+
+    <!--
+    Vendor name or Organization ID (if you have one created).
+    Attributes:
+     - "url" (optional) - specifies the link to the vendor's homepage
+     - "email" (optional) - specifies the vendor's email address
+    Displayed on the Plugins Page.
+    -->
+    <vendor url="http://www.lxjn.club/"
+            email="1056227556@qq.com">lxjn
+    </vendor>
+
+    <!-- 插件依赖，可以依赖模块或插件 -->
     <depends>com.intellij.modules.platform</depends>
 
+
+
+
+
+    <!-- 资源包，kv，方便管理文本以及i18n-->
+<!--    <resource-bundle>messages.TBundle</resource-bundle>-->
+
+    <!-- 行为 https://plugins.jetbrains.com/docs/intellij/plugin-actions.html-->
+    <actions>
+        <action id="org.hgd.dev.module.create" class="org.hgd.dev.action.CreateModuleAction" text="Hwin模块" icon="/icon/svg/module_16.svg">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+        </action>
+    </actions>
+
+
+    <!-- 声明该插件对IDEA core或其他插件的扩展，Ns是NameSpace的缩写 -->
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.1056227556.hdev.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.1056227556.hdev.services.MyProjectService"/>
+<!--        <applicationService serviceImplementation="org.hgd.hdev.services.MyApplicationService"/>-->
+<!--        <projectService serviceImplementation="org.hgd.hdev.services.MyProjectService"/>-->
+
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.1056227556.hdev.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+        <!-- 插件定义的扩展点，以供其他插件扩展该插件，类似Java的抽象类的功能如何在https://plugins.jetbrains.com/docs/intellij/plugin-extensions.html -->
+    <extensionPoints>
+    </extensionPoints>
+
+    <!-- 监听器
+         https://plugins.jetbrains.com/docs/intellij/plugin-listeners.html -->
+    <!--    <applicationListeners>-->
+    <!--        <listener class="org.hgd.hdev.listeners.MyProjectManagerListener" topic="com.intellij.openapi.project.ProjectManagerListener"/>-->
+    <!--    </applicationListeners>-->
 </idea-plugin>

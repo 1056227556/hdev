@@ -1,11 +1,2 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M32.0845 7.94025V4H24.0203V7.9896H16.029V4H7.91553V7.94025H4V36H16.0044V32.0045C16.0058 30.9457 16.4274 29.9308 17.1766 29.1826C17.9258 28.4345 18.9412 28.0143 20 28.0143C21.0588 28.0143 22.0743 28.4345 22.8234 29.1826C23.5726 29.9308 23.9942 30.9457 23.9956 32.0045V36H36V7.94025H32.0845Z"
-          fill="url(#paint0_linear)"/>
-    <defs>
-        <linearGradient id="paint0_linear" x1="2.94192" y1="4.89955" x2="37.7772" y2="39.7345" gradientUnits="userSpaceOnUse">
-            <stop offset="0.15937" stop-color="#3BEA62"/>
-            <stop offset="0.5404" stop-color="#3C99CC"/>
-            <stop offset="0.93739" stop-color="#6B57FF"/>
-        </linearGradient>
-    </defs>
-</svg>
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1658210914121" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1918" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css">@font-face { font-family: feedback-iconfont; src: url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff2?t=1630033759944") format("woff2"), url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff?t=1630033759944") format("woff"), url("//at.alicdn.com/t/font_1031158_u69w8yhxdu.ttf?t=1630033759944") format("truetype"); }
+</style></defs><path d="M512 512m-448 0a448 448 0 1 0 896 0 448 448 0 1 0-896 0Z" fill="#FFFFFF" p-id="1919"></path><path d="M536 536m-424 0a424 424 0 1 0 848 0 424 424 0 1 0-848 0Z" fill="#A89BFA" p-id="1920"></path><path d="M688 337L256 480l208 80 80 208 144-431z" fill="#FFFFFF" p-id="1921"></path><path d="M625.46 395.05l-253.6 88.45a16 16 0 0 0-1.86 29.43l93.9 46.75L544 736l102.15-321a16 16 0 0 0-20.69-19.95z" fill="#FFBF80" p-id="1922"></path><path d="M512 976A464.11 464.11 0 0 1 331.39 84.47a464.12 464.12 0 0 1 361.23 855.06A461.16 461.16 0 0 1 512 976z m0-896C273.79 80 80 273.79 80 512s193.79 432 432 432 432-193.79 432-432S750.21 80 512 80z" fill="#333333" p-id="1923"></path><path d="M544 784a16 16 0 0 1-14.93-10.26l-77.45-201.36-201.36-77.45a16 16 0 0 1 0.71-30.12l432-143a16 16 0 0 1 20.21 20.26l-144 431A16 16 0 0 1 544.36 784zM303.51 481.13l166.23 63.94a16 16 0 0 1 9.19 9.19l64 166.42L662.7 362.23z" fill="#333333" p-id="1924"></path></svg>
